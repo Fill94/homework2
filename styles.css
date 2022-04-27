@@ -1,0 +1,57 @@
+h1{
+  color: cadetblue;
+  font-family: helvetica;
+  text-align: center;
+}
+div.header{
+  color: cadetblue;
+  text-align: center;
+}
+span.linkheader{
+  
+  font-size: 1.5em;
+  
+}
+body{
+  font-family: helvetica;
+  display: flex;
+}
+div.home{
+  background-color: lightgrey;
+  border: 2px solid cadetblue;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:5px;
+  flex-grow: 1;
+}
+div.homeBody{
+  background-color: lightgrey;
+  border: 2px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-grow:1;
+  margin: 5px;
+  border: 2px solid cadetblue;
+  height: fit-content;
+}
+
+
+div.separationLine{
+  background-color: cadetblue;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+img{
+   border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 15em;
+
+}
